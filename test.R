@@ -1,3 +1,4 @@
 library(tidyverse)
-palmerpenguins::penguins
+penguins <- palmerpenguins::penguins
+species <- filter(penguins, species)
 
